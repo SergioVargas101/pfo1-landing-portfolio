@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustración de perfil para portafolio</title>
+  <desc id="desc">Composición abstracta de una persona frente a una ventana de código.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a2d50"/>
+      <stop offset="1" stop-color="#0c1527"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c9cff"/>
+      <stop offset="1" stop-color="#9ee7d7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="635" cy="190" r="120" fill="#7c9cff" opacity=".14"/>
+  <circle cx="130" cy="820" r="170" fill="#9ee7d7" opacity=".12"/>
+
+  <rect x="145" y="150" width="510" height="420" rx="28" fill="#101a2e" stroke="#ffffff" stroke-opacity=".12"/>
+  <circle cx="185" cy="190" r="8" fill="#ff7e78"/>
+  <circle cx="215" cy="190" r="8" fill="#ffd36d"/>
+  <circle cx="245" cy="190" r="8" fill="#8ae3b6"/>
+
+  <rect x="190" y="245" width="230" height="18" rx="9" fill="url(#screen)" opacity=".9"/>
+  <rect x="190" y="295" width="360" height="14" rx="7" fill="#d8e2ff" opacity=".72"/>
+  <rect x="220" y="335" width="290" height="14" rx="7" fill="#d8e2ff" opacity=".38"/>
+  <rect x="220" y="375" width="340" height="14" rx="7" fill="#9ee7d7" opacity=".62"/>
+  <rect x="190" y="425" width="250" height="14" rx="7" fill="#d8e2ff" opacity=".46"/>
+  <rect x="220" y="465" width="310" height="14" rx="7" fill="#7c9cff" opacity=".72"/>
+
+  <circle cx="405" cy="670" r="92" fill="#d8b59b"/>
+  <path d="M319 657c4-93 168-134 183-14 3 23-3 49-18 68-19-59-78-66-165-54z" fill="#182338"/>
+  <path d="M255 950c12-161 81-241 151-241 83 0 149 81 168 241z" fill="#17233b"/>
+  <path d="M348 762c25 20 73 23 103 0l18 188H329z" fill="#7c9cff" opacity=".92"/>
+  <path d="M284 930c58-52 182-53 242 0" fill="none" stroke="#9ee7d7" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+</svg>

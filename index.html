@@ -8,21 +8,42 @@
 </head>
 
 <body>
-
+    <!-- Encabezado y menu de navegacion -->
     <header>
         <nav>
             <a href="#inicio">Inicio</a>
             <a href="#sobre-mi">Sobre mí</a>
             <a href="#habilidades">Habilidades</a>
+            <a href="#objetivos">Objetivos</a>
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
 
    <main>
-
+        <!-- Presentacion principal -->
         <section id="inicio">
-            <h1>Sergio Vargas</h1>
-            <p>Estudiante de Desarrollo de Sistemas Web</p>
+            <div>
+                <h1>Sergio Vargas</h1>
+
+                <h2>Estudiante de Desarrollo de Sistemas Web</h2>
+
+                <p>
+                    Bienvenido a mi portfolio personal. En este espacio presento
+                    algunos de mis conocimientos, intereses y objetivos dentro
+                    del desarrollo web.
+                </p>
+
+                <a href="https://github.com/SergioVargas101" target="_blank">
+                    Ver mi GitHub
+                </a>
+            </div>
+
+            <div>
+                <img
+                    src="assets/profile-illustration.svg"
+                    alt="Ilustración de perfil de Sergio Vargas"
+                >
+            </div>
         </section>
 
         <section id="sobre-mi">
@@ -34,38 +55,93 @@
             </p>
 
             <p>
-                Me interesa seguir desarrollando mis conocimientos en programación,
-                diseño de interfaces y creación de aplicaciones web.
+                Me interesa seguir desarrollando mis conocimientos en programacion,
+                diseño de interfaces y creacion de aplicaciones web.
             </p>
         </section>
-
+        <!-- Seccion de habilidades -->
         <section id="habilidades">
             <h2>Habilidades</h2>
 
             <div>
                 <h3>HTML5</h3>
-                <p>Creación y estructura de páginas web utilizando etiquetas semánticas.</p>
+                <p>Creacion y estructura de páginas web utilizando etiquetas semanticas.</p>
             </div>
 
             <div>
                 <h3>CSS3</h3>
-                <p>Estilos, colores, tipografías y diseño de interfaces web.</p>
+                <p>Estilos, colores, tipografias y diseño de interfaces web.</p>
             </div>
 
             <div>
                 <h3>Git y GitHub</h3>
-                <p>Control de versiones y publicación de proyectos en repositorios.</p>
+                <p>Control de versiones y publicacion de proyectos en repositorios.</p>
             </div>
 
             <div>
                 <h3>Visual Studio Code</h3>
-                <p>Editor de código que utilizo para desarrollar mis proyectos.</p>
+                <p>Editor de codigo que utilizo para desarrollar mis proyectos.</p>
             </div>
 
         </section>
+        <section id="objetivos">
+            <h2>Mis objetivos</h2>
+
+            <p>
+                Mi objetivo es seguir aprendiendo y mejorando mis conocimientos
+                en desarrollo web, incorporando nuevas herramientas y tecnologias.
+            </p>
+
+            <p>
+                Busco poder crear sitios y aplicaciones web que sean utiles,
+                claras y faciles de utilizar.
+            </p>
+        </section>
+        <!-- Formulario de contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <p>
+                Si querés comunicarte conmigo, podés completar el siguiente formulario.
+            </p>
+
+            <form>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="email">Correo electrónico</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
     </main>
 
-
+    <!-- Pie de pagina -->
     <footer>
         <p>Portfolio personal - 2026</p>
     </footer>
