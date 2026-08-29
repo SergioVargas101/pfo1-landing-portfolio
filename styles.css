@@ -1,10 +1,10 @@
 /* Estilos generales */
 :root {
-    --color-principal: #2563eb;
-    --color-secundario: #1e293b;
-    --color-fondo: #f8fafc;
+    --color-principal: #7c3aed;
+    --color-secundario: #111827;
+    --color-fondo: #f5f3ff;
     --color-blanco: #ffffff;
-    --color-texto: #334155;
+    --color-texto: #374151;
 }
 
 * {
@@ -18,7 +18,12 @@ html {
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
-    background-color: var(--color-fondo);
+    background: linear-gradient(
+                                135deg,
+                                #f5f3ff 0%,
+                                #f8fafc 50%,
+                                #eef2ff 100%
+            );
     color: var(--color-texto);
     line-height: 1.6;
 }
@@ -107,7 +112,7 @@ h2 {
 
 #inicio a:hover {
     transform: translateY(-3px);
-    background-color: #1d4ed8;
+     background-color: #6d28d9;
 }
 
 
@@ -192,7 +197,7 @@ button {
 }
 
 button:hover {
-    background-color: #1d4ed8;
+    background-color: #6d28d9;
 }
 
 
